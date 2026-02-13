@@ -14,5 +14,5 @@ RAG is a technique that enhances foundation models by connecting it to external 
 - When working under the Free Tier on the AWS Console it became apparent that no matter how the integration of RAG was developed that the same error keep appearing and this was becasue of the Service Quota limit that was limited for invoking any Foundational Model.
 - To invoke the Foundation Model in order to sync the data for the Knowledge Base I had to request an increase of the Service Quota for the Amazon Titan Model Embeddings so that the necessary vectors can be created an stored for a proper integration of RAG for FAQ chatbots.
 
-Diagram of the Integration of RAG with Amazon Bedrock and S3
+##Diagram of the Integration of RAG with Amazon Bedrock and S3
 ![Diagram of RAG Integration](aws-console-rag-bedrock/RAG-Diagram.png)
