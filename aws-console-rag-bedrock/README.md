@@ -23,6 +23,9 @@
 * For **Vectore Store Stype**, we will select **Anazon S3 Vectors** to store the created vector embeddings that the Knowledge Base will provide to the LLM model for RAG implementation. 
 * Review the Settings and Create the Knowledge Base
 * **Sync the Knowledge Base** to re-index the content
-**Note:** If there are issus in syncing the Knowledge Base and it mentions **Data Sync Failed, Too Many Requests**. This could be from the **Service Quota limit** of the chosen Model and the Invoke Request limit. Depending on the Account this may require to communicate with Amazon Support to increase the limit.
+
+>**Note:** If there are issus in syncing the Knowledge Base and it mentions **Data Sync Failed, Too Many >Requests**. This could be from the **Service Quota limit** of the chosen Model and the Invoke Request >limit. Depending on the Account this may require to communicate with Amazon Support to increase the limit.
+
+## Step 4: Creating BackEnd (Lambda Function)
 
 
